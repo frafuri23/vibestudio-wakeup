@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "WakeUP",
+    "slug": "wakeup",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.francescofurioso.wakeup",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "This app uses the camera to take photos and videos.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone to record video.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photos so you can pick and use them."
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.francescofurioso.wakeup"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "icon": "https://appspawn-gateway-production.up.railway.app/v1/assets/9ad93083-cae4-44da-ac10-695beb605caf/icon.png",
+    "owner": "frafuri",
+    "extra": {
+      "vibestudio": {
+        "proxy": "https://appspawn-gateway-production.up.railway.app/v1/app-proxy/9ad93083-cae4-44da-ac10-695beb605caf",
+        "key": "ae3ad21f7ebc2b8eba89cbac57e71e4fddfc70ab",
+        "provider": "anthropic"
+      }
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
+  }
+}
